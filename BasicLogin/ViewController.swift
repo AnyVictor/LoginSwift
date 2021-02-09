@@ -20,8 +20,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         title = "Login"
         // Do any additional setup after loading the view.
-        self.usernameTextField.delegate = self
-        self.passwordTextField.delegate = self
+        usernameTextField.delegate = self
+        passwordTextField.delegate = self
     }
 
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
